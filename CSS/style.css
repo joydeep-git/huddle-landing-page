@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+*,*::after,*::before{margin: 0; padding: 0; box-sizing: border-box;}
+html{font-size: 18px;}
+:root{
+    --pink-color: #ff52bf;
+    --Very-Pale-Cyan: #ebfbff;
+    --Very-Dark-Cyan: #00252e;
+    --Grayish-Blue: #808d99;
+    --title-font: 'Poppins', sans-serif;
+    --callback-font: 'Open Sans', sans-serif;
+}
