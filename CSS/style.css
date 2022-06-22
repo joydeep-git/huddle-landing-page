@@ -71,3 +71,28 @@ header{
     border-radius: 25px;
     background-color: var(--pink-color);
     border: var(--pink-color) 1px solid;}
+main section{
+    margin: 4.5%;
+    padding: 3.5%;}
+main section div{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px var(--Grayish-Blue);
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    color: var(--Very-Dark-Cyan);
+    border: 1px solid #ffffff;}
+main section div h3{
+    font-size: 2rem;
+    font-family: var(--title-font);}
+main section div p{
+    color: var(--Grayish-Blue);
+    font-family: var(--callback-font);
+    font-size: 1rem;
+    width: 85%;}
+main section div img{
+    width: 40%;
+    height: auto;}
