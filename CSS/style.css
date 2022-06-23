@@ -76,8 +76,10 @@ main{
     padding: 0;}
 main section{
     margin: 4.5%;
-    padding: 3.5%;}
+    padding: 3.2%;
+    padding-bottom: 0%;}
 .div{
+    padding: 3rem 2rem 3rem 0;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
@@ -95,7 +97,35 @@ main section div section p{
     color: var(--Grayish-Blue);
     font-family: var(--callback-font);
     font-size: 1rem;
-    width: 85%;}
+    width: 90%;}
 main section div img{
-    width: 30rem;
+    width: 40%;}
+.second{
+    padding: 3rem 0 3rem 2rem;}
+.fourth{
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    color: var(--Very-Dark-Cyan);
+    font-size: 1.2rem;
+    font-family: var(--title-font);
+    box-shadow: 0px 0px 15px var(--Grayish-Blue);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-bottom: -10rem;}
+.fourth button{
+    margin-top: 2rem;
+    background-color: var(--pink-color);
+    font-family: var(--callback-font);
+    font-size: 1.2rem;
+    padding: 1rem 5rem;
+    border: 1px solid var(--pink-color);
+    border-radius: 35px;
+    color: var(--Very-Pale-Cyan);
+    font-weight: 600;}
+footer{
+    background-color: var(--Very-Dark-Cyan);
 }
+
+
