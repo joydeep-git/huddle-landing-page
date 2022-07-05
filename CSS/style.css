@@ -255,8 +255,12 @@ footer div{
     border-radius: 90%;
 }
 
+.fa-brands:hover{
+    cursor: pointer;
+    border: var(--pink-color);
+}
+
 .f-social i:hover{
-    background-color: var(--pink-color);
     cursor: pointer;
     border: var(--pink-color);
 }
