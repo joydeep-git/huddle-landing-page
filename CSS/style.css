@@ -239,6 +239,28 @@ footer div{
     margin: 1rem 0;
 }
 
+.f-social{
+    display: inline-flex
+    flex-direction: row;
+    align-items: center;
+    justify-content:end;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 3rem;
+}
+
+.fa-brands{
+    border: 1px solid var(--Very-Pale-Cyan);
+    padding: 1rem;
+    border-radius: 90%;
+}
+
+.f-social i:hover{
+    background-color: var(--pink-color);
+    cursor: pointer;
+    border: var(--pink-color);
+}
+
 .end {
     display: flex;
     float: right;
