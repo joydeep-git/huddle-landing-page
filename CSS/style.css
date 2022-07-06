@@ -240,29 +240,24 @@ footer div{
 }
 
 .f-social{
-    display: inline-flex
-    flex-direction: row;
     align-items: center;
-    justify-content:end;
-    margin-right: auto;
-    margin-left: auto;
-    gap: 3rem;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2rem;
 }
 
-.fa-brands{
+.f-social img{
+    width: 3rem;
+    height: 3rem;
     border: 1px solid var(--Very-Pale-Cyan);
-    padding: 1rem;
-    border-radius: 90%;
+    border-radius: 50%;
+    padding: 0.5rem;
 }
 
-.fa-brands:hover{
-    cursor: pointer;
+.f-social span a:hover{
     border: var(--pink-color);
-}
-
-.f-social i:hover{
     cursor: pointer;
-    border: var(--pink-color);
+    width: 10rem;
 }
 
 .end {
